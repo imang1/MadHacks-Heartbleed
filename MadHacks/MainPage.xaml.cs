@@ -7,6 +7,7 @@ namespace MadHacks
 {
     public partial class MainPage : ContentPage
     {
+        int goal;
         public MainPage()
         {
             InitializeComponent();
@@ -14,6 +15,7 @@ namespace MadHacks
 
         void OnSave(){
             saveGoal.IsEnabled = true;
+            goal = int.Parse(fitnessGoal.ToString());
         }
     }
 }

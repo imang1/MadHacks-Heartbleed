@@ -10,8 +10,8 @@
     </ContentPage.Padding>
     
 	<StackLayout>
-        <Label Text="Enter a weekly fitness goal: "/>
+        <Label Text="Enter a weekly fitness goal: " FontFamily="Proxima Nova Medium" FontSize="20" FontAttributes="Bold"/>
         <Entry x:Name="fitnessGoal" Text="10,000"/>
-        <Button x:Name="saveGoal" Text="Save Goal" Clicked="OnSave"/>
+        <Button x:Name="saveGoal" Text="Save Goal" Clicked="OnSave" />
     </StackLayout>
 </ContentPage>
