@@ -10,7 +10,7 @@
     </ContentPage.Padding>
     
 	<StackLayout>
-        <Label Text="Enter a fitness goal: "/>
+        <Label Text="Enter a weekly fitness goal: "/>
         <Entry x:Name="fitnessGoal" Text="10,000"/>
         <Button x:Name="saveGoal" Text="Save Goal" Clicked="OnSave"/>
     </StackLayout>
