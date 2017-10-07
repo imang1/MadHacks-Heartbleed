@@ -9,9 +9,12 @@
     </OnPlatform>
     </ContentPage.Padding>
     
-	<StackLayout>
+    <StackLayout>
         <Label Text="Enter a weekly fitness goal: " FontFamily="Proxima Nova Medium" FontSize="20" FontAttributes="Bold"/>
-        <Entry x:Name="fitnessGoal" Text="10,000"/>
-        <Button x:Name="saveGoal" Text="Save Goal" Clicked="OnSave" />
+        <Entry x:Name="fitnessGoal" Placeholder="Steps"/>
+        <Button x:Name="saveFitGoal" Text="Save Goal" Clicked="OnSaveFit" />
+         <Label Text="Enter a weekly budget goal: " FontFamily="Proxima Nova Medium" FontSize="20" FontAttributes="Bold"/>
+        <Entry x:Name="budgetGoal" Placeholder="Dollars"/>
+        <Button x:Name="saveMonGoal" Text="Save Goal" Clicked="OnSaveMoney" />
     </StackLayout>
 </ContentPage>
