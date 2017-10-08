@@ -16,5 +16,6 @@
          <Label Text="Enter a weekly budget goal: " FontFamily="Proxima Nova Medium" FontSize="20" FontAttributes="Bold"/>
         <Entry x:Name="budgetGoal" Placeholder="Dollars"/>
         <Button x:Name="saveMonGoal" Text="Save Goal" Clicked="OnSaveMoney" />
+        <Button x:Name="nextPage" Text="Next" Clicked="OnNext" />
     </StackLayout>
 </ContentPage>

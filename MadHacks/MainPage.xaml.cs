@@ -36,5 +36,9 @@ namespace MadHacks
 			}
             mon_goal = int.Parse(money);
         }
+
+        async void OnNext() {
+            await Navigation.PushAsync(new DisplayPage());
+        }
     }
 }
