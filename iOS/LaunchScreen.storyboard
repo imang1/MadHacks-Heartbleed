@@ -1,27 +1,51 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
-	<dependencies>
-		<deployment identifier="iOS" />
-		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530" />
-	</dependencies>
-	<scenes>
-		<!--View Controller-->
-		<scene sceneID="EHf-IW-A2E">
-			<objects>
-				<viewController id="01J-lp-oVM" sceneMemberID="viewController">
-					<layoutGuides>
-						<viewControllerLayoutGuide type="top" id="Llm-lL-Icb" />
-						<viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok" />
-					</layoutGuides>
-					<view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-						<rect key="frame" x="0.0" y="0.0" width="600" height="600" />
-						<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" />
-						<color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" />
-					</view>
-				</viewController>
-				<placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder" />
-			</objects>
-			<point key="canvasLocation" x="53" y="375" />
-		</scene>
-	</scenes>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" customColorSpace="sRGB" colorSpace="calibratedRGB" red="0.61960784313725492" green="0.73725490196078436" blue="0.83921568627450982" alpha="1"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="404" translatesAutoresizingMaskIntoConstraints="NO" image="centFit.png" misplaced="YES">
+                                <rect key="frame" x="67" y="285" width="280" height="166"/>
+                                <constraints>
+                                    <constraint id="2957" firstAttribute="width" constant="280"/>
+                                    <constraint id="2958" firstAttribute="height" constant="166"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
+                        <constraints>
+                            <constraint id="3161" firstItem="Ze5-6b-2t3" firstAttribute="trailing" secondItem="404" secondAttribute="trailing" constant="67"/>
+                            <constraint id="3162" firstItem="Ze5-6b-2t3" firstAttribute="bottom" secondItem="404" secondAttribute="bottom" constant="279"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="centFit.png" width="621" height="299"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina55"/>
+        <simulatedOrientationMetrics key="orientation"/>
+    </simulatedMetricsContainer>
 </document>
